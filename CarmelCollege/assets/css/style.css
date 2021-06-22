@@ -12,12 +12,27 @@ body {
 }
 .logo-img
 {
-  float: left;
- margin: 10px 15px 15px 10px;
+  /* float: left;
+ margin: 10px 15px 15px 10px; */
+ display: block;
+ position:absolute;
+ left: 10px;
+ top: 10px;
+ margin: 0px 15px 15px 0px;
+ 
+}
+.navbar-default
+{
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+.logo-container
+{
+  padding-left: 30px;
 }
 #logo-div
 {
-  padding-bottom: 60px;
+  padding:10px 15px 15px 10px;
   margin: 10px 15px 15px 10px;
  float: left;
  
@@ -26,7 +41,7 @@ body {
   border: none;
 }
 
-/* MODULES - Individual site components */
+
 ul {
   padding: 0;
   margin: 0;
